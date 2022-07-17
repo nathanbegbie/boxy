@@ -20,9 +20,7 @@ defmodule BoxyWeb.BoxLive do
         <div class="column-2">
           <%= @message %>
         </div>
-
       </div>
-
     """
   end
 end
