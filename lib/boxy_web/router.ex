@@ -18,6 +18,7 @@ defmodule BoxyWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    live "/box", BoxLive
   end
 
   # Other scopes may use custom stacks.
